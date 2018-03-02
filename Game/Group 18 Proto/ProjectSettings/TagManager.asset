@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Block
   - Wall
+  - TurnTaking
+  - BackGround
   layers:
   - Default
   - TransparentFX
