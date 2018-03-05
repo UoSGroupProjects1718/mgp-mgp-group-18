@@ -12,21 +12,10 @@ public class Turns : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Player1Turn = true;
-        Turn = GetComponent<BoxCollider2D>().isTrigger;
-        Turn = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
 	}
-
-    void OnMouseDown()
-    {
-        if (Player1Turn == true)
-        {
-            
-        }
-
-    }
 }
