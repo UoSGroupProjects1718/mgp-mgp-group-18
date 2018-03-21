@@ -9,6 +9,12 @@ TagManager:
   - Wall
   - TurnTaking
   - BackGround
+  - IceBlock
+  - MudBlock
+  - WaterBlock
+  - FireBlock
+  - Ice
+  - Grass
   layers:
   - Default
   - TransparentFX
