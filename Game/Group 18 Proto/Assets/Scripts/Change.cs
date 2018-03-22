@@ -38,6 +38,13 @@ public class Change : MonoBehaviour {
                 this.GetComponent<SpriteRenderer>().sprite = GrassBlock;
             }
         }
+        if (CurrentBlock == FireBlock)
+        {
+            if (col.gameObject.tag == "WaterBlock")
+            {
+                Destroy(gameObject);
+            }
+        }
     
     }
 }
