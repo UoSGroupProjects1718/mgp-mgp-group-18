@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Change : MonoBehaviour {
 
-    public Sprite IceBlock, WaterBlock, FireBlock, GrassBlock, MudBlock;
+    public Sprite IceBlock, WaterBlock, FireBlock, GrassBlock, MudBlock, StoneBlock;
     private Sprite CurrentBlock;
 
 	// Use this for initialization
@@ -28,7 +28,7 @@ public class Change : MonoBehaviour {
             }
             if (col.gameObject.tag == "MudBlock")
             {
-                Destroy(gameObject);
+                this.GetComponent<SpriteRenderer>().sprite = GrassBlock;
             }
         }
         if (CurrentBlock == MudBlock)
@@ -37,12 +37,22 @@ public class Change : MonoBehaviour {
             {
                 this.GetComponent<SpriteRenderer>().sprite = GrassBlock;
             }
+            if (col.gameObject.tag == "FireBlock")
+            {
+                this.GetComponent<SpriteRenderer>().sprite = StoneBlock;
+            }
         }
         if (CurrentBlock == FireBlock)
         {
             if (col.gameObject.tag == "WaterBlock")
             {
                 Destroy(gameObject);
+            }
+        }
+        if (CurrentBlock == IceBlock)
+        {
+            if (col.gameObject.tag == "Fire")
+            {
             }
         }
     
