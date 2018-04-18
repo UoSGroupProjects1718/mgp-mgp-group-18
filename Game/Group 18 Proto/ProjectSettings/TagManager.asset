@@ -15,6 +15,7 @@ TagManager:
   - FireBlock
   - Ice
   - Grass
+  - Stone
   layers:
   - Default
   - TransparentFX

@@ -48,11 +48,16 @@ public class Change : MonoBehaviour {
             {
                 Destroy(gameObject);
             }
+            if (col.gameObject.tag == "Grass")
+            {
+                this.GetComponent<SpriteRenderer>().sprite = MudBlock;
+            }
         }
         if (CurrentBlock == IceBlock)
         {
-            if (col.gameObject.tag == "Fire")
+            if (col.gameObject.tag == "FireBlock")
             {
+                Destroy(gameObject);
             }
         }
     

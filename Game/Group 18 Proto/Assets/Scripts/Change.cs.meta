@@ -5,7 +5,13 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - IceBlock: {fileID: 21300000, guid: 9d0f2e7c208aca04c918ccafef23b0fe, type: 3}
+  - WaterBlock: {fileID: 21300000, guid: a529a1a8f8148d44f85ff27c941e2c60, type: 3}
+  - FireBlock: {fileID: 21300000, guid: 663c53411b70d5841a6da0df1b2055ad, type: 3}
+  - GrassBlock: {fileID: 21300000, guid: 9b9d3f627a06e44408175f06533a7633, type: 3}
+  - MudBlock: {fileID: 21300000, guid: f126cd328af9ba949b825c6f693f706a, type: 3}
+  - StoneBlock: {fileID: 21300000, guid: 3daa1b21e558b004d94a77759caf03d9, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
