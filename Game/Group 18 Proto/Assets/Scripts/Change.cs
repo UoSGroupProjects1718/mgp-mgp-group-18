@@ -28,7 +28,11 @@ public class Change : MonoBehaviour {
             }
             if (col.gameObject.tag == "MudBlock")
             {
-                this.GetComponent<SpriteRenderer>().sprite = GrassBlock;
+                Destroy(gameObject);
+            }
+            if (col.gameObject.tag == "GrassBlock")
+            {
+                this.GetComponent<SpriteRenderer>().sprite = WaterBlock;
             }
         }
         if (CurrentBlock == MudBlock)
@@ -50,7 +54,11 @@ public class Change : MonoBehaviour {
             }
             if (col.gameObject.tag == "Grass")
             {
-                this.GetComponent<SpriteRenderer>().sprite = MudBlock;
+                Destroy(gameObject);
+            }
+            if (col.gameObject.tag == "MudBlock")
+            {
+                Destroy(gameObject);
             }
         }
         if (CurrentBlock == IceBlock)
@@ -60,6 +68,11 @@ public class Change : MonoBehaviour {
                 Destroy(gameObject);
             }
         }
+        if (CurrentBlock == GrassBlock)
+            if (col.gameObject.tag == "WaterBlock")
+            {
+                Destroy(gameObject);
+            }
     
     }
 }
