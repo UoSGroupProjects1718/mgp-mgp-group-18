@@ -54,11 +54,9 @@ public class Change : MonoBehaviour {
             }
             if (col.gameObject.tag == "Grass")
             {
-                Destroy(gameObject);
             }
             if (col.gameObject.tag == "MudBlock")
             {
-                Destroy(gameObject);
             }
         }
         if (CurrentBlock == IceBlock)
