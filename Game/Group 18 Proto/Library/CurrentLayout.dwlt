@@ -360,19 +360,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jackf\OneDrive\Documents\GitHub\mgp-mgp-group-18\Game\Group
     18 Proto
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e2270000
-    m_LastClickedID: 10210
+    m_SelectedIDs: d8270000
+    m_LastClickedID: 10200
     m_ExpandedIDs: 00000000a027000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -426,8 +426,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 80310000
+    m_LastClickedInstanceID: 12672
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000b0270000aa270000242f0000
     m_RenameOverlay:
@@ -483,7 +483,7 @@ MonoBehaviour:
     width: 446
     height: 710
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 336.6861}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -512,30 +512,30 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 92
+    x: -32000
+    y: -31951
     width: 321
     height: 308
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
-    scrollPos: {x: 0, y: 429}
-    m_SelectedIDs: 06280000
-    m_LastClickedID: 0
-    m_ExpandedIDs: f063fcff1e66fcff3a47ffff2a4affff8a5dffffb860ffff6c7affff4a7dffff5e9affff8a9cffffaaa2ffff18a5ffff30b5ffff12b9ffff6ed8ffff14dbffff08e4ffff0af3ffff9efbffff000000006631000046360000e43d00002e4300002e6d00008c6d0000f46d000058310100
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 80310000
+    m_LastClickedID: 12672
+    m_ExpandedIDs: 9eb4ffff84b9ffff26c7ffff0ce8ffff9efbffff00000000462b00005a2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Ice (4)
-      m_OriginalName: Ice (4)
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -11336
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 4}
     m_SearchString: 
@@ -566,8 +566,8 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 325
-    y: 92
+    x: -31675
+    y: -31951
     width: 761
     height: 308
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -577,9 +577,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.2894886, y: 1.8646549, z: -2.7285156}
+    m_Target: {x: -0.16268784, y: -1.179879, z: -2.7285156}
     speed: 2
-    m_Value: {x: -3.2894886, y: 1.8646549, z: -2.7285156}
+    m_Value: {x: -0.16268784, y: -1.179879, z: -2.7285156}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:

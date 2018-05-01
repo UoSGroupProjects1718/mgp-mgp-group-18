@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.SceneManagement;
 using UnityEngine;
+using System.Collections;
 
 public class Winner : MonoBehaviour
 {
@@ -10,6 +10,7 @@ public class Winner : MonoBehaviour
     public SpriteRenderer Lose;
     public bool Player2;
     public bool result;
+    public bool isWinner;
 
 
     // Use this for initialization
@@ -24,6 +25,11 @@ public class Winner : MonoBehaviour
     {
         Player2 = (GameObject.Find("Player2").GetComponent<Player_2>().IsWinner);
     }
+    IEnumerator EndGame()
+    {
+        yield return new WaitForSeconds(5);
+        SceneManager.LoadScene("Main_Menu");
+    }
     public void OnTriggerEnter2D(Collider2D WinnersBox)
     {
         if (WinnersBox.gameObject.tag == "Ground")
@@ -31,11 +37,18 @@ public class Winner : MonoBehaviour
             if (Player2 == true)
             {
                 Lose.enabled = true;
+                isWinner = false;
             }
             else
             {
                 Win.enabled = true;
                 result = true;
+                isWinner = false;
+            }
+            if (isWinner == false)
+            {
+                StartCoroutine(EndGame());
+                
             }
         }
     }
